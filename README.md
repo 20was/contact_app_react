@@ -1,24 +1,19 @@
-# Contacts Project
+## Contact React App
 
-This repo is a code-along with the first project in the [React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
+This app manages the details of a user. It helps to search, insert and delete contacts.
+Data comes from backend server, so needs to run server first in order to see app completely.
 
-Most of the commits in this repository correspond to videos in the program.
+The backend server for this project can be found [here](https://github.com/udacity/reactnd-contacts-server)
 
-## Project Setup
+Clone it and run a command node server.js
 
-- Clone the project - `git clone https://github.com/udacity/reactnd-contacts-complete.git`
-- Install the dependencies - `npm install`
+## snaps
 
-## Backend Server
-
-The backend server for this in-class project can be found [here](https://github.com/udacity/reactnd-contacts-server).
-
-## Contributing
-
-Because this is a code-along project and the commits correspond to specific videos in the program, we will not be accepting pull requests.
-
-If you feel like there's a major problem, please open an issue to discuss the problem and potential resolution.
-
-## License
-
-MIT
+Initial run
+![Sample 1](/src/snaps/snap1.png?raw=true "Snapshot 1")
+After deleting user
+![Sample 2](/src/snaps/snap2.png?raw=true "Snapshot 2")
+Searching
+![Sample 3](/src/snaps/snap3.png?raw=true "Snapshot 3")
+Adding new user
+![Sample 4](/src/snaps/snap4.png?raw=true "Snapshot 4")
